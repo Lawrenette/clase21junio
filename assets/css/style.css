@@ -17,16 +17,28 @@
 
 /* NAVBAR */
 .logo {
-	width: : 50px;
+	width: 50px;
+}
+img {
+	height: 50px;
+}
+.bg-dark {
+    background-color: #000000!important;
 }
 
 /* HEADER */
 .jumbotron {
-	background-image: url(assets/images/barber.jpeg);
+	background-image: url(../../assets/images/barber.jpg);
 	background-size: 100% 100%;
+	height: 700px;
+	border-radius: 0;
 }
 .titulo {
+	height: 800px;
 	font-size: 80px;
 	text-align: center;
-	font-family: 'Playfair Display', bold;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: white;
+	padding-top: 100px;
 }
